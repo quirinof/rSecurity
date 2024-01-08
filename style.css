@@ -54,3 +54,10 @@ section p {
   font-weight: 400;
   line-height: 28px;
 }
+
+#padlock {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
