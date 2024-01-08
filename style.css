@@ -10,8 +10,17 @@ body {
   margin: 70px auto 0;
 }
 
-section p {
-  font-family: 'Open Sans', sans-serif;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  
+  display: flex;
+  gap: 65px;
 }
 
 a {
@@ -21,4 +30,8 @@ a {
 
 span {
   color: #00BFA6;
+}
+
+section p {
+  font-family: 'Open Sans', sans-serif;
 }
