@@ -3,6 +3,8 @@ body {
   background: #2C2B3D;
   font-family: 'JetBrains Mono', monospace;
   color: #FFFFFF;
+
+  min-height: 100vh;
 }
 
 .page {
@@ -20,12 +22,16 @@ ul {
   list-style: none;
 
   display: flex;
-  gap: 65px;
+  gap: 64px;
 }
 
-a {
+ul li a {
   color: #FFFFFF;
   text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
 }
 
 main {
@@ -68,6 +74,11 @@ footer {
   font-size: 14px;
   font-weight: 500;
   line-height: 28px;    
+}
+
+footer a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 #padlock {
