@@ -1,9 +1,14 @@
 body {
   margin: 0;
   background: #2C2B3D;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 .page {
   width: 1100px;
   margin: 70px auto 0;
+}
+
+section p {
+  font-family: 'Open Sans', sans-serif;
 }
